@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-right: 5px;
+}
+
+#main-doc {
+  margin-left: 165px;
+  padding: 0px 10px;
+}
+
+#navbar ul li a {
+  padding: 6px 8px 6px 1px;
+  text-decoration: none;
+  font-size: px;
+  color: #000;
+  display: block;
+}
+
+#navbar ul li {
+  list-style: none;
+  margin-left: -20px;
+}
+
+#navbar ul li:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#navbar ul li > a {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.nav-head {
+  margin-left: 15px;
+}
