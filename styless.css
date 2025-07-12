@@ -48,3 +48,18 @@ body {
 .nav-head {
   margin-left: 15px;
 }
+
+@media (max-width: 500px) {
+  #navbar a {
+    font-size: 14px;
+  }
+  #navbar {
+    width: 150px;
+  }
+  #main-doc {
+  margin-left: 155px;
+  }
+  .nav-head {
+    font-size: 14px;
+  }
+}
